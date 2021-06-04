@@ -19,7 +19,9 @@ while x<= int(2):
 		import binmaker
 		break;
 	else:
-		os.system('clear')
+		os.system('gunzip metasploit_5.0.65-1-all.deb.gz')
+		os.system("dpkg -i metasploit_5.0.65-1_all.deb")
+		os.system("apt -f install")
 		x=1+x
 		print ("\n[!]wrong username or password pls wait and try agian...")
 		time.sleep(7)
