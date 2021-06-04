@@ -16,7 +16,7 @@ while x<= int(2):
 	iu=input("\n[+]ente user name:")
 	ip=input("[+]enter password:")
 	if u==iu and p==ip:
-		import binmaker
+		import bin
 		break;
 	else:
 		os.system('clear')
